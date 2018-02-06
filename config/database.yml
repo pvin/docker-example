@@ -4,8 +4,7 @@ default: &default
   pool: 5
   username: username
   password: password
-  host: localhost
-
+  host: db
 
 development:
   <<: *default
